@@ -1,0 +1,37 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="387" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="12">
+            <item index="0" class="java.lang.String" itemvalue="uWSGI" />
+            <item index="1" class="java.lang.String" itemvalue="celery" />
+            <item index="2" class="java.lang.String" itemvalue="tablib" />
+            <item index="3" class="java.lang.String" itemvalue="uwsgi" />
+            <item index="4" class="java.lang.String" itemvalue="watchdog" />
+            <item index="5" class="java.lang.String" itemvalue="Django" />
+            <item index="6" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="7" class="java.lang.String" itemvalue="tenacity" />
+            <item index="8" class="java.lang.String" itemvalue="xmltodict" />
+            <item index="9" class="java.lang.String" itemvalue="requests" />
+            <item index="10" class="java.lang.String" itemvalue="vine" />
+            <item index="11" class="java.lang.String" itemvalue="argh" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="applications.v2.services.bigcommerce_service.big_commerce_model.v2" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
